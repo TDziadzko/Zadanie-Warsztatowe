@@ -42,7 +42,7 @@ public class NewAddress {
 
 
 
-    public NewAddressPage(WebDriver driver) {
+    public NewAddress(WebDriver driver) {
         this.driver = driver;
         PageFactory.initElements(driver, this);
     }
